@@ -1,0 +1,53 @@
+.background1::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("https://th.bing.com/th/id/OIP.bjrBhUEOWrfDHM4CWJXKJwHaE8?w=255&h=180&c=7&r=0&o=5&pid=1.7");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.background2::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("https://th.bing.com/th/id/OIP.XHgP1mlCdFeTN5W1HCJdugAAAA?w=267&h=180&c=7&r=0&o=5&pid=1.7");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.background3::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("https://www.bing.com/th?id=OIP.PUA1N0X6Os_wA9R7EoF5OAHaFJ&w=226&h=160&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  width: 100%;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 50px;
+  box-sizing: border-box;
+}
+.background1::before body {
+  margin: 0;
+  padding: 0;
+}
